@@ -8,4 +8,12 @@
     tools:context=".StartWindow"
     tools:showIn="@layout/app_bar_start_window">
 
+    <Button
+        android:id="@+id/findPlaceBtn"
+        android:layout_width="201dp"
+        android:layout_height="38dp"
+        android:text="Button"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="198dp" />
 </android.support.constraint.ConstraintLayout>
