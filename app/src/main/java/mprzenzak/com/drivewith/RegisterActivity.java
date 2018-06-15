@@ -18,7 +18,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), MainScreen.class);
+                Intent startIntent = new Intent(getApplicationContext(), StartWindow.class);
                 //dupa kuby
                 startActivity(startIntent);
                 //new test
