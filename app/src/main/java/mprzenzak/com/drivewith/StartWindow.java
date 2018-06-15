@@ -43,15 +43,15 @@ public class StartWindow extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        Button findPlaceBtn = (Button) findViewById(R.id.findPlaceBtn);
-        findPlaceBtn.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), FindDestination.class);
-                startActivity(startIntent);
-            }
-        });
+//        Button findPlaceBtn = (Button) findViewById(R.id.findPlaceBtn);
+//        findPlaceBtn.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                Intent startIntent = new Intent(getApplicationContext(), FindDestination.class);
+//                startActivity(startIntent);
+//            }
+//        });
     }
 
     @Override
