@@ -24,11 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterActivity"
+            android:theme="@style/HaloHalo" />
         <activity
             android:name=".StartWindow"
             android:label="@string/title_activity_start_window"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/HaloHalo" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
