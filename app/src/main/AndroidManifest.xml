@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".StartWindow"
+            android:label="@string/title_activity_start_window"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
