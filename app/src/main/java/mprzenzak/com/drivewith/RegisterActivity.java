@@ -21,6 +21,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Intent startIntent = new Intent(getApplicationContext(), StartWindow.class);
                 //dupa kuby
                 startActivity(startIntent);
+                //new test
             }
         });
     }
