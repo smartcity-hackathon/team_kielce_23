@@ -15,9 +15,11 @@ public class RegisterActivity extends AppCompatActivity {
 
         Button startWindowBtn = (Button) findViewById(R.id.startWindowBtn);
         startWindowBtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 Intent startIntent = new Intent(getApplicationContext(), StartWindow.class);
+                //dupa kuby
                 startActivity(startIntent);
             }
         });
