@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         loginActivityBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), MapsActivityTest.class);
+                Intent startIntent = new Intent(getApplicationContext(), StartWindow.class);
                 startActivity(startIntent);
             }
         });
