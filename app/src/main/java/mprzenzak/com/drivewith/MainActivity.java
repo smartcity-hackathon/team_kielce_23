@@ -22,6 +22,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+        Button loginActivityBtn = (Button) findViewById(R.id.loginActivityBtn);
+        loginActivityBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(getApplicationContext(), MapsActivityTest.class);
+                startActivity(startIntent);
+            }
+        });
 
     }
 }
