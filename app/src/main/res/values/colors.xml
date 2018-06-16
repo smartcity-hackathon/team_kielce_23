@@ -10,4 +10,5 @@
     <color name="cyan">#4db6ac</color>
     <color name="cyan1">#3f9c93</color>
     <color name="cyan_light">#4db6ac</color>
+    <color name="foreground_material_dark">#cf3030</color>
 </resources>

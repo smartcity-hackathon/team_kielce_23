@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/HaloHalo2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"
+        <activity
+            android:name=".RegisterActivity"
             android:theme="@style/HaloHalo2" />
         <activity
             android:name=".StartWindow"
@@ -45,7 +47,10 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"
-            android:theme="@style/HaloHalo2"></activity>
+            android:theme="@style/HaloHalo2" />
+        <activity
+            android:name=".MapsActivityTest"
+            android:label="@string/title_activity_maps_test"></activity>
     </application>
 
 </manifest>
