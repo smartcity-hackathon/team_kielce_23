@@ -19,7 +19,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), StartWindow.class);
+                Intent startIntent = new Intent(getApplicationContext(), MapsActivity.class);
                 //dupa kuby
                 Log.i("aaa","ok a");
                 startActivity(startIntent);
