@@ -23,4 +23,9 @@
         <item name="colorAccent">@color/red</item>
     </style>
 
+    <style name="HaloHalo2" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorPrimaryDark">@color/cyan1</item>
+        <item name="colorPrimary">@color/cyan_light</item>
+    </style>
+
 </resources>

@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"
-            android:theme="@style/HaloHalo">
+            android:theme="@style/HaloHalo2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,11 +25,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity"
-            android:theme="@style/HaloHalo" />
+            android:theme="@style/HaloHalo2" />
         <activity
             android:name=".StartWindow"
             android:label="@string/title_activity_start_window"
-            android:theme="@style/HaloHalo" />
+            android:theme="@style/HaloHalo2" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -44,7 +44,8 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps"
+            android:theme="@style/HaloHalo2"></activity>
     </application>
 
 </manifest>

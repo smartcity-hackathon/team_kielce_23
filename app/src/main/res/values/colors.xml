@@ -7,4 +7,7 @@
     <color name="green">#388e3c</color>
     <color name="greeny">#00c853</color>
     <color name="red">#d4233a</color>
+    <color name="cyan">#4db6ac</color>
+    <color name="cyan1">#3f9c93</color>
+    <color name="cyan_light">#4db6ac</color>
 </resources>
