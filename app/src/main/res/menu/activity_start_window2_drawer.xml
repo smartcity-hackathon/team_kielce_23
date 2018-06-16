@@ -6,11 +6,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_account_box_black_24dp"
+            android:icon="@drawable/wot"
             android:title="Ostatnie osoby" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_alarm_on_black_24dp"
+            android:icon="@drawable/wot"
             android:title="Zgłoszenia" />
         <item
             android:id="@+id/nav_slideshow"
