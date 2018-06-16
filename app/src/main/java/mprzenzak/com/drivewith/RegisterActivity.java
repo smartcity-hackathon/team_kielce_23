@@ -24,6 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Log.i("aaa","ok a");
                 startActivity(startIntent);
                 //new test
+                //test
             }
         });
     }
